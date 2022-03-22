@@ -2,4 +2,9 @@ h1, h2, h3, p{font-family: sans-serif;
     color: #444;
     font: 24px}
 
+    h1 { font-size: 50px;
+        color: #1098ad;
+        text-transform: uppercase;
+        font-style: italic;}
 
+        
