@@ -10,3 +10,10 @@ h1, h2, h3, p{font-family: sans-serif;
 
         h2 {color: #1098ad ;text-transform: uppercase;
             font-size: 40px;}
+
+            
+p {
+    font-size: 22px;
+    font-family: sans-serif;
+    line-height: 1.5;
+  }
