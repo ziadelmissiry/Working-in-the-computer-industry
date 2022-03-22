@@ -1,10 +1,10 @@
 
-#A219FA
+#A219FA (Purple)
 
-#4921DE
+#4921DE (Dark Blue)
 
-#3154F5
+#3154F5 (Blue)
 
-#218DDE
+#218DDE (Lighter Blue)
 
-#26F5FF
+#26F5FF (Cyan)
