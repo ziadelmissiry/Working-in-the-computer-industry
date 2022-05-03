@@ -29,6 +29,14 @@ p, li {
     padding: 6em 15em;
 }
 
+.article {
+    border-radius: 1em;
+    background-color: #f4f4f4f4;
+    border-style: none;
+    padding: 0.75em;
+    margin: 0.75em 0;
+}
+
 .nav {
     position: fixed;
     top: 0;
