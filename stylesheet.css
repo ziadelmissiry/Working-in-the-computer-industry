@@ -82,3 +82,18 @@ footer p {
     text-align: center;
     top: 100%;
 }
+
+@media (max-width: 768px) {
+    
+    .content {
+        padding: 5em 0;
+    }
+
+    .nav ul li a {
+        min-width: 80%;
+        padding: 0.5em;
+        margin: 0.2em auto;
+
+    }
+
+}
