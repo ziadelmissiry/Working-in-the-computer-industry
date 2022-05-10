@@ -7,21 +7,25 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel = "stylesheet" href = "normalize.css">
 		<link rel = "stylesheet" href = "stylesheet.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 	
 	<body>
 		
 		<div class = "wrapper">
 			
-			<div class = "nav">
-				<ul>
-					<li><h3> Navigation </h3>
-					<a href = '#top'> Home </a>
-					<a href='securityMechanisms.html'> Security Mechanisms </a>
-					<a href='privacyIssues.html'> Privacy Issues </a>
-					<a href='mitigatingThreats.html'> Mitigating Threats </a></li>
-				</ul>
-			</div>
+			<div class="topnav">
+				<a href="#index.html" class="active">Navigation</a>
+				<div id="myLinks">
+					<a href="#index.html">Home</a>
+					<a href="#privacyIssues.html">Privacy Issues</a>
+					<a href="#securityMechanisms,html">Security Mechanisms</a>
+					<a href="#mitigatingThreats.html">Mitigating Threats</a>
+				</div>
+				<a href="javascript:void(0);" class="icon" onclick="dropDown()">
+					<i class="fa fa-bars"></i>
+				</a>
+			  </div>
 			
 			<div class = "content">
 
@@ -80,6 +84,17 @@
 				<footer>
 					<p>Website created by Ethan Lambourne, Ziad Elmissir, Aziz Almohareb. (2022)</p>
 				</footer>
+
+				<script>
+					function dropDown() {
+					  var x = document.getElementById("myLinks");
+					  if (x.style.display === "block") {
+						x.style.display = "none";
+					  } else {
+						x.style.display = "block";
+					  }
+					}
+				</script>
 
 			</div>
 			

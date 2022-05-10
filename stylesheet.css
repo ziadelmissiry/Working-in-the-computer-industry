@@ -47,7 +47,7 @@ p, li {
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
 }
 
-.nav ul li h3 {
+.nav h3 {
     display: inline;
     color: white;
     text-align: left;
@@ -86,14 +86,44 @@ footer p {
 @media (max-width: 768px) {
     
     .content {
-        padding: 5em 0;
+        padding: 0.5em 0;
     }
 
-    .nav ul li a {
-        min-width: 80%;
-        padding: 0.5em;
-        margin: 0.2em auto;
-
+    .topnav {
+        overflow: hidden;
+        background-color: white;
+        position: relative;
+        box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
+    }
+      
+    .topnav #myLinks {
+        display: none;
+    }
+      
+    .topnav a {
+        color: black;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 25px;
+        display: block;
+        font-family: sans-serif;
+    }
+      
+    .topnav a.icon {
+        background: white;
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+      
+    .topnav a:hover {
+        background-color: white;
+        color: black;
+    }
+      
+    .active {
+        background-color: #218DDE;
     }
 
 }
